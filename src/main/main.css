@@ -1,0 +1,54 @@
+.styled-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px 20px;
+}
+.header-container img{
+    width: 80px;
+    margin: 0px;
+    border: none;
+}
+.theme-button { 
+    border-radius: 50px;
+    background: white;
+    border: 2px solid #6809E1;
+    height: 50px;
+    width: 120px; 
+}
+.theme-button:hover {
+    background-image: url("../Components/assets/solyluna.jpg");
+    background-size: cover;
+}
+.button-text {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-weight: 30px;
+}
+.search-title {
+    font-size: 35px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.results-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.results-title h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
