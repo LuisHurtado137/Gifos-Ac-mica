@@ -1,14 +1,13 @@
-import Main from './main/main';
-import AppContextProvider from "./context/AppContext.js"
+import Main from "./main/main";
+import AppContextProvider from "./context/AppContext.js";
 
-import './App.css';
+import "./App.css";
 
 function App() {
- 
   return (
-        <AppContextProvider>
-         <Main/>
-        </AppContextProvider>
+    <AppContextProvider>
+      <Main />
+    </AppContextProvider>
   );
 }
 export default App;
