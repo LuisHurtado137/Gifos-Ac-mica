@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This is a Gifs website, you can search your favorite gifs, also you can ccheck what gifs are on trending topic, visit https://gifosacamica.netlify.app and enjoy it.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
