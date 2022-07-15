@@ -1,41 +1,39 @@
 .container-search-gifs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 20px 0px 20px 0px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
 }
 .search-input {
-    width: 100%;
-    height: 40px;
-    border-radius: 50px 0px 0px 50px;
-    border: 2px solid black;
-    padding-left: 20px;
-    margin-bottom: 60px;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px 0px 0px 50px;
+  border: 2px solid black;
+  padding-left: 20px;
+  margin-bottom: 60px;
 }
 .input-container {
-    display: flex;
-    align-items: stretch;
-    height: 80px;
+  display: flex;
+  align-items: stretch;
+  height: 45px;
 }
-.lupa {
-    height: 40px;
-    width: 60px;
-    cursor: pointer;
-    border-radius: 0px 50px 50px 0px;
-    border: 2px solid black;
-    background-color: #572EE5;
+.searchButton {
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 0px 50px 50px 0px;
+  border: 2px solid black;
+  background-color: #572ee5;
 }
-.lupa-buscador{
-    border: none;
-    width: 20px;
-    margin: 10px;
-    padding: 0;
+.searchBarIcon {
+  width: 18px;
+  margin: 10px;
+  padding: 0;
 }
 
-.search-image{
-    width: 500px;
-    border: none;
-    padding: 0px;
+.search-image {
+  width: 400px;
+  margin: -3px;
+  padding: 0;
 }
